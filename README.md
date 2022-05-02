@@ -25,7 +25,7 @@ This project was made for CS342: Neural Networks as a final project. To run this
 - Added time elapsed when loading data to Dataset just for curiosity
 
 ## 2022-05-02: Erica
-## Main Code
+### Main Code
 - added ```num_channels``` parameter to ```TissueCNN()``` for use in Experiment 1
 
 ### Experiment 1: Original (Avi and Waleed)
