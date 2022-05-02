@@ -1,9 +1,7 @@
 # TO-DO 
 - Reorder data loading at the beginning of notebook to stop crashing computers (See Crop Data on Experiment 2)
 - Add Experiment 1: Grayscale
-- Complete Experiment 2: Perimeter Masking
-    - Make the bar graph with the models' accuracies
-    - Bonus: plot weights for both models
+- Return true and pred from ```test_network()```
 
 # Change Log
 ## 2022-05-1: Erica
@@ -30,3 +28,7 @@
 - Test the original model on cropped data
 - Train and test new model on cropped data
 - Test new model on uncropped data
+
+## 2022-05-02: Shikhar
+### Experiment 2
+- Added bar plot for accuracies
