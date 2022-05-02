@@ -2,11 +2,8 @@
 - Reorder data loading at the beginning of notebook to stop crashing computers (See Crop Data on Experiment 2)
 - Add Experiment 1: Grayscale
 - Complete Experiment 2: Perimeter Masking
-    - Test the original model on cropped data
-    - Train and test new model on cropped data
-    - Test new model on uncropped data
-    - Bonus: Test original model on different amount of cropping sizes of testing data ([8, 16, 24, 32])
-    - Bonus: Test new model on different amount of cropping sizes of testing data ([8, 16, 24, 32])
+    - Make the bar graph with the models' accuracies
+    - Bonus: plot weights for both models
 
 # Change Log
 ## 2022-05-1: Erica
@@ -24,6 +21,12 @@
 - Changed ```test_network()``` to return accuracy
 
 ### Experiment 2
-- Added optional parameter ```num_pixels``` to ```negateContext()``` for (maybe) future use (see Bonus tasks on To-Do). Defaults to 32.
+- Added optional parameter ```num_pixels``` to ```negateContext()``` for (maybe) future use. Defaults to 32.
 - Added ```NegateContextOfData()``` to iterate through every image in a dataset (most likely mega inefficient lol)
 - Added time elapsed when loading data to Dataset just for curiosity
+
+## 2022-05-02: Erica
+### Experiment 2
+- Test the original model on cropped data
+- Train and test new model on cropped data
+- Test new model on uncropped data
