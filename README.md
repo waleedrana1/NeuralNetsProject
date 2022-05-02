@@ -1,7 +1,8 @@
+# Read Me
+This project was made for CS342: Neural Networks as a final project. To run this notebook, you need the [Metastatic Tissue Classification - PatchCamelyon Dataset](https://www.kaggle.com/datasets/andrewmvd/metastatic-tissue-classification-patchcamelyon?resource=download). 
+
 # TO-DO 
-- Reorder data loading at the beginning of notebook to stop crashing computers (See Crop Data on Experiment 2)
-- Add Experiment 1: Grayscale
-- Return true and pred from ```test_network()```
+- Return true and pred from ```test_network()``` for write-up purposes
 
 # Change Log
 ## 2022-05-1: Erica
