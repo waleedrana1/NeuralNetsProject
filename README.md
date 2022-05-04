@@ -2,7 +2,6 @@
 This project was made for CS342: Neural Networks as a final project. To run this notebook, you need the [Metastatic Tissue Classification - PatchCamelyon](https://www.kaggle.com/datasets/andrewmvd/metastatic-tissue-classification-patchcamelyon?resource=download) Dataset. 
 
 # TO-DO 
-- Return true and pred from ```test_network()``` for write-up purposes
 
 # Change Log
 ## 2022-05-1: Erica
@@ -24,11 +23,11 @@ This project was made for CS342: Neural Networks as a final project. To run this
 - Added ```NegateContextOfData()``` to iterate through every image in a dataset (most likely mega inefficient lol)
 - Added time elapsed when loading data to Dataset just for curiosity
 
-## 2022-05-02: Erica
+## 2022-05-03: Erica
 ### Main Code
 - added ```num_channels``` parameter to ```TissueCNN()``` for use in Experiment 1
 
-### Experiment 1: Original (Avi and Waleed)
+### Experiment 1: Originally written by Avi and Waleed
 - Made the Grayscale loop into an in-place function
 - Made the train/val/test data also get grayscaled
 - Deleted extra ```TissueCNN()```, added extra parameter ```num_channels``` instead. Defaults to 3
@@ -39,6 +38,14 @@ This project was made for CS342: Neural Networks as a final project. To run this
 - Train and test new model on cropped data
 - Test new model on uncropped data
 
-## 2022-05-02: Shikhar
+## 2022-05-03: Shikhar
 ### Experiment 2
 - Added bar plot for accuracies
+
+## 2022-05-04: Erica
+### Main code
+- Added model analysis after training the original model
+
+## 2022-05-04: Waleed
+### Experiment 1
+- Added plotbar for Grayscale Analysis
